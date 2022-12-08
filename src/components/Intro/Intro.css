@@ -1,0 +1,110 @@
+.Intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 3rem;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+ 
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.i-name>:nth-child(1)
+{
+    color:black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2)
+{
+    color: orangered;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3)
+{
+    font-weight: 100;
+    font-size: 30px;
+    color: gray;
+    margin-top: 5px;
+}
+.i-right{
+    flex:1;
+    position: relative;
+}
+.i-icons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0rem;
+
+}
+.i-icons>*{
+  transform: scale(0.4) ;
+  flex-wrap: wrap;
+}
+.i-icons>*:hover{
+  cursor: pointer;
+}
+.i-icons>:nth-child(1)
+{
+    float: left;
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-right>*{
+    z-index: 1;
+    position: absolute;
+}
+.i-right>:nth-child(1)
+{
+    transform: scale(0.6);
+    left: 10%;
+    top: -35.5%;
+}
+.i-right>:nth-child(2)
+{
+    transform: scale(0.5);
+    top: -18%;
+    left: -25%;
+    border-radius: 50%;
+    padding: 0;
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius:50% ;
+    background-color: honeydew;
+    filter: blur(212px);
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+    filter: blur(72px);
+}
+@media screen and (max-width: 480px)
+{
+    .Intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .i-right.blur{
+        display: none;
+    }
+    .floating-div:nth-of-type(1){
+    top: -7rem;
+    }
+}
