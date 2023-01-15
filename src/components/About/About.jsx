@@ -41,7 +41,7 @@ const About = () => {
                 <Card
                 emoji={laptop}
                 heading={'Competitive programmer'}
-                detail={'Solved 700+ problems on Codechef, Codeforces, Leetcode, GeeksforGeeks'}
+                detail={'Solved 800+ problems on Codechef, Codeforces, Leetcode, GeeksforGeeks'}
                 />
             </div>
             <div style={{top:"14rem", left:"13rem"}}>
