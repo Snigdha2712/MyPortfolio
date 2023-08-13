@@ -5,7 +5,7 @@ import professional from "../../img/professional.jpeg";
 import laptop from "../../img/laptop.jpeg";
 import book from "../../img/book.jpeg";
 
-import Resume from "./Snig resume.pdf";
+import Resume from "./Snig resume.pdf"; 
 const About = () => {
   
   return (
@@ -24,7 +24,7 @@ const About = () => {
           I was born and brought up in Varanasi,Uttar Pradesh.
           <br>
           I am currently learning Machine learning and Artificial Intelligence.
-          </br>
+          </br> 
         </span>
         <a href={Resume} download>
         <button className="button s-button">Download Resume</button>
