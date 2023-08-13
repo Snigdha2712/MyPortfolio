@@ -5,7 +5,7 @@ import professional from "../../img/professional.jpeg";
 import laptop from "../../img/laptop.jpeg";
 import book from "../../img/book.jpeg";
 
-import Resume from "./Snigdharesume.pdf";
+import Resume from "./Snig resume.pdf"; 
 const About = () => {
   
   return (
@@ -17,11 +17,14 @@ const About = () => {
           <br/>
           Willing to work as a key member in challenging environments.
           <br/>
-          I am currently pursuing B.tech in Computer Science and Engineering from Kamla Nehru Institute of Technology.
+          I am currently pursuing B.tech in Computer Science and Engineering from Kamla Nehru Institute of Technology with 9.2 CGPA.
           <br/>
           I have done my Intemediate and High School in 2019 and 2017 respectively from St.Joseph's Convent School, Varanasi.
           <br/>
           I was born and brought up in Varanasi,Uttar Pradesh.
+          <br>
+          I am currently learning Machine learning and Artificial Intelligence.
+          </br> 
         </span>
         <a href={Resume} download>
         <button className="button s-button">Download Resume</button>
@@ -41,7 +44,7 @@ const About = () => {
                 <Card
                 emoji={laptop}
                 heading={'Competitive programmer'}
-                detail={'Solved 800+ problems on Codechef, Codeforces, Leetcode, GeeksforGeeks'}
+                detail={'Solved 1200+ problems on Codechef, Codeforces, Leetcode, GeeksforGeeks'}
                 />
             </div>
             <div style={{top:"14rem", left:"13rem"}}>

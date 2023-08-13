@@ -29,6 +29,15 @@ const Work = () => {
           Talking about my leadership qualities, I was School house captain and led my house. My house was the winner
           <br/>
           in School sports day event.
+          <br/>
+          Currently, I am Table Tennis sports captain of my College.
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          I am a Subject Matter Expert at Chegg India for Advanced Mathematics.
+          <br/>
+          I am Technical Content Writer at GeeksForGeeks.
         </span>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
         </div>
